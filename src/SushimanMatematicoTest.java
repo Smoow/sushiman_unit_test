@@ -13,13 +13,13 @@ public class SushimanMatematicoTest extends TestCase {
         // assert statements
         assertTrue(SushimanMatematico.ehPrimo(7));
         assertTrue(SushimanMatematico.ehPrimo(11));
-		assertTrue(SushimanMatematico.ehPrimo(71));
-		assertTrue(SushimanMatematico.ehPrimo(233));
-		assertFalse(SushimanMatematico.ehPrimo(12));
-		assertFalse(SushimanMatematico.ehPrimo(16));
-		assertFalse(SushimanMatematico.ehPrimo(200));
-		assertEquals("ehPrimo(400) deve retornar false", false, SushimanMatematico.ehPrimo(400));
-		assertEquals("ehPrimo(73) deve retornar true", true, SushimanMatematico.ehPrimo(73));
+	assertTrue(SushimanMatematico.ehPrimo(71));
+	assertTrue(SushimanMatematico.ehPrimo(233));
+	assertFalse(SushimanMatematico.ehPrimo(12));
+	assertFalse(SushimanMatematico.ehPrimo(16));
+	assertFalse(SushimanMatematico.ehPrimo(200));
+	assertEquals("ehPrimo(400) deve retornar false", false, SushimanMatematico.ehPrimo(400));
+	assertEquals("ehPrimo(73) deve retornar true", true, SushimanMatematico.ehPrimo(73));
 	}
 
 	public void testGetPrimos() {
